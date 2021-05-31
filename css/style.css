@@ -37,9 +37,9 @@ body {
 
 .vimeo-wrapper iframe {
     width: 100vw;
-    height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+    height: 56.25vw;
     min-height: 100vh;
-    min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+    min-width: 177.77vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -292,20 +292,36 @@ h5 {
     -webkit-box-shadow: 2px 2px 5px black;
     box-shadow: 2px 2px 5px black;
     padding: 15px 0;
+    margin-bottom: 50px;
 }
 
 .first-card {
-    background: url("https://i.postimg.cc/VNzQCpNv/montenegro.jpg") no-repeat center center;
+    background: url("https://i.ibb.co/pPGZv8w/montenegro.webp") no-repeat center center;
     background-size: cover;
 }
 
 .second-card {
-    background: url("https://i.postimg.cc/0yY1rPPh/turkey.jpg") no-repeat center center;
+    background: url("https://i.ibb.co/8ztmx5K/turkey.webp") no-repeat center center;
     background-size: cover;
 }
 
 .third-card {
-    background: url("https://i.postimg.cc/hPHKf2xQ/greece.jpg") no-repeat center center;
+    background: url("https://i.ibb.co/fFzh3pn/greece.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.fourth-card {
+    background: url("https://i.ibb.co/qR26rn7/mexico.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.fifth-card {
+    background: url("https://i.ibb.co/b1QLst9/dominican-republic.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.sixth-card {
+    background: url("https://i.ibb.co/hd3Njs6/shifaaz-shamoon-0l-D9-SSMC6jo-unsplash.webp") no-repeat center center;
     background-size: cover;
 }
 
