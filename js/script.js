@@ -1,3 +1,6 @@
+const observer = lozad();
+observer.observe();
+
 function openNav(event) {
     event.stopPropagation();
     document.getElementById("mySidenav").style.width = "350px";
@@ -28,5 +31,10 @@ function init() {
         }
     }
 }
-
 window.onload = init;
+
+$(function () {
+    $(window).load(function () {
+        $('#divLoader').fadeOut('slow');
+    })
+})

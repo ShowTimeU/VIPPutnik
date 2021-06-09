@@ -15,8 +15,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
             crossorigin="anonymous" async></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
+    </noscript>
     <link rel="stylesheet" href="css/style.css">
     <script src="css/all.js" async></script>
     <script src="js/script.js" async></script>
@@ -25,6 +33,7 @@
 <div class="vimeo-wrapper">
     <iframe data-src="https://iframe.videodelivery.net/4ce8ea834705c057cba30c3626910022?muted=true&preload=true&loop=true&autoplay=true&controls=false"
             src=""
+            class="lozad"
             style="border: none;" width="100%"
             allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
             allowfullscreen="true"
@@ -80,27 +89,27 @@
             Найпопулярніші напрямки цього літа
         </h1>
         <div class="cards d-flex flex-row justify-content-between container flex-wrap">
-            <div class="my-card first-card d-flex flex-column justify-content-between">
+            <div class="lozad my-card first-card d-flex flex-column justify-content-between" data-background-image="https://i.ibb.co/pPGZv8w/montenegro.webp">
                 <h1 class="card-title">Чорногорія</h1>
                 <a href="search" class="card-btn">Почати пошук</a>
             </div>
-            <div class="my-card second-card d-flex flex-column justify-content-between">
+            <div class="lozad my-card second-card d-flex flex-column justify-content-between" data-background-image="https://i.ibb.co/8ztmx5K/turkey.webp">
                 <h1 class="card-title">Туреччина</h1>
                 <a href="search" class="card-btn">Почати пошук</a>
             </div>
-            <div class="my-card third-card d-flex flex-column justify-content-between">
+            <div class="lozad my-card third-card d-flex flex-column justify-content-between" data-background-image="https://i.ibb.co/fFzh3pn/greece.webp">
                 <h1 class="card-title">Греція</h1>
                 <a href="search" class="card-btn">Почати пошук</a>
             </div>
-            <div class="my-card fourth-card d-flex flex-column justify-content-between">
+            <div class="lozad my-card fourth-card d-flex flex-column justify-content-between" data-background-image="https://i.ibb.co/qR26rn7/mexico.webp">
                 <h1 class="card-title">Мексика</h1>
                 <a href="search" class="card-btn">Почати пошук</a>
             </div>
-            <div class="my-card fifth-card d-flex flex-column justify-content-between">
+            <div class="lozad my-card fifth-card d-flex flex-column justify-content-between" data-background-image="https://i.ibb.co/b1QLst9/dominican-republic.webp">
                 <h1 class="card-title">Домініканська Республіка</h1>
                 <a href="search" class="card-btn">Почати пошук</a>
             </div>
-            <div class="my-card sixth-card d-flex flex-column justify-content-between">
+            <div class="lozad my-card sixth-card d-flex flex-column justify-content-between" data-background-image="https://i.ibb.co/hd3Njs6/shifaaz-shamoon-0l-D9-SSMC6jo-unsplash.webp">
                 <h1 class="card-title">Мальдіви</h1>
                 <a href="search" class="card-btn">Почати пошук</a>
             </div>
