@@ -293,8 +293,35 @@ h5 {
     box-shadow: 2px 2px 5px black;
     padding: 15px 0;
     margin-bottom: 50px;
-    background-position: center center;
-    background-repeat: no-repeat;
+}
+
+.first-card {
+    background: url("https://i.ibb.co/pPGZv8w/montenegro.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.second-card {
+    background: url("https://i.ibb.co/8ztmx5K/turkey.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.third-card {
+    background: url("https://i.ibb.co/fFzh3pn/greece.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.fourth-card {
+    background: url("https://i.ibb.co/qR26rn7/mexico.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.fifth-card {
+    background: url("https://i.ibb.co/b1QLst9/dominican-republic.webp") no-repeat center center;
+    background-size: cover;
+}
+
+.sixth-card {
+    background: url("https://i.ibb.co/hd3Njs6/shifaaz-shamoon-0l-D9-SSMC6jo-unsplash.webp") no-repeat center center;
     background-size: cover;
 }
 

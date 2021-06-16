@@ -1,6 +1,3 @@
-const observer = lozad();
-observer.observe();
-
 function openNav(event) {
     event.stopPropagation();
     document.getElementById("mySidenav").style.width = "350px";
