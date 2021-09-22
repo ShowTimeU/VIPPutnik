@@ -293,35 +293,36 @@ h5 {
     box-shadow: 2px 2px 5px black;
     padding: 15px 0;
     margin-bottom: 50px;
+    border-radius: 8px;
 }
 
 .first-card {
-    background: url("https://i.ibb.co/pPGZv8w/montenegro.webp") no-repeat center center;
+    background: url("https://i.ibb.co/yYs0bfq/france.webp") no-repeat center center;
     background-size: cover;
 }
 
 .second-card {
-    background: url("https://i.ibb.co/8ztmx5K/turkey.webp") no-repeat center center;
+    background: url("https://i.ibb.co/hFbS3rD/greece.webp") no-repeat center center;
     background-size: cover;
 }
 
 .third-card {
-    background: url("https://i.ibb.co/fFzh3pn/greece.webp") no-repeat center center;
+    background: url("https://i.ibb.co/y44VJpK/czech.webp") no-repeat center center;
     background-size: cover;
 }
 
 .fourth-card {
-    background: url("https://i.ibb.co/qR26rn7/mexico.webp") no-repeat center center;
+    background: url("https://i.ibb.co/gzMgZWZ/uae.webp") no-repeat center center;
     background-size: cover;
 }
 
 .fifth-card {
-    background: url("https://i.ibb.co/b1QLst9/dominican-republic.webp") no-repeat center center;
+    background: url("https://i.ibb.co/8ztmx5K/turkey.webp") no-repeat center center;
     background-size: cover;
 }
 
 .sixth-card {
-    background: url("https://i.ibb.co/hd3Njs6/shifaaz-shamoon-0l-D9-SSMC6jo-unsplash.webp") no-repeat center center;
+    background: url("https://i.ibb.co/1s5NLFg/egypt.webp") no-repeat center center;
     background-size: cover;
 }
 
@@ -346,6 +347,7 @@ h5 {
     font-size: 18px;
     margin: 0 auto;
     color: white;
+    background: rgba(0, 0, 0, 0.4);
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
